@@ -1,0 +1,491 @@
+[API Trapper      (4f44:6600)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 594: 6f8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (44d0:2f3c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (44d0:3d58)] ------------------------------------------------------------------------------------------
+[Network Analyzer (44d0:3d58)] Load Network Traffic Analyzers:
+[Network Analyzer (44d0:3d58)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (44d0:3d58)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (44d0:3d58)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (44d0:3d58)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (44d0:3d58)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (44d0:3d58)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (44d0:3d58)]     Analyzer Module: local_server (value=)
+[Network Analyzer (44d0:3d58)] ------------------------------------------------------------------------------------------
+[Network Analyzer (44d0:2138)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.167.131:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (44d0:4910)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:4910)] SSLAccept(ssl_id = 2300689498928 = 00000217ABC7C330) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:4910)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 216.58.196.163:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (44d0:2138)] "GET /generate_204"   
+[Network Analyzer (44d0:2138)]   (Sid:  3) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  3) Server -> Client : 127 bytes  (Service=HTTP)
+[Network Analyzer (44d0:57f0)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:57f0)] SSLAccept(ssl_id = 2300689713056 = 00000217ABCB07A0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:57f0)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[API Trapper      ( 7d4:4024)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 74.125.130.188:5228   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (44d0:26c0)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:26c0)] SSLAccept(ssl_id = 2300689653824 = 00000217ABCA2040) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:26c0)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:5dc8)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:5dc8)] SSLAccept(ssl_id = 2300689332368 = 00000217ABC53890) Failed, ctx = 00000217ABCAE380, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (44d0:5dc8)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (44d0:31c0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:31c0)] SSLAccept(ssl_id = 2300689332368 = 00000217ABC53890) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:31c0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (44d0:3164)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:3164)] SSLAccept(ssl_id = 2300689794032 = 00000217ABCC43F0) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Net An. Error    (44d0:3164)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (44d0:2138)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (44d0:5514)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:5514)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (44d0:2138)] "GET /actions/Catalog.action"   
+[Network Analyzer (44d0:2138)]   (Sid:  8) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 1589 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /css/jpetstore.css"   
+[Network Analyzer (44d0:2138)]   (Sid:  8) Client -> Server @ : 648 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 1577 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:1e70)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:5ee0)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:6140)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 13)  PROXIED!
+[Net An. Error    (44d0:1e70)] SSLAccept(ssl_id = 2300689729568 = 00000217ABCB4820) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:5ee0)] SSLAccept(ssl_id = 2300689980640 = 00000217ABCF1CE0) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:6140)] SSLAccept(ssl_id = 2300695240880 = 00000217AC1F60B0) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:1e70)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (44d0:2138)] "GET /images/logo-topbar.svg"   
+[Net An. Error    (44d0:5ee0)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (44d0:6140)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid:  8) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:1a44)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 2005 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 1626 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 1700 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 1653 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 53 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:2138)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (44d0:5554)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:1224)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 16)  PROXIED!
+[Net An. Error    (44d0:1a44)] SSLAccept(ssl_id = 2300695429808 = 00000217AC2242B0) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:1a44)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (44d0:5554)] SSLAccept(ssl_id = 2300688503680 = 00000217ABB89380) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:1224)] SSLAccept(ssl_id = 2300695525664 = 00000217AC23B920) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:5554)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Net An. Error    (44d0:1224)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:30e0)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:2138)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (44d0: 7a4)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:30a8)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:2138)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (44d0:284c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:2138)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (44d0:5f28)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.193.138:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.182.10:443   (Service=)  (Sid= 22)  PROXIED!
+[Net An. Error    (44d0:30e0)] SSLAccept(ssl_id = 2300689914016 = 00000217ABCE18A0) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0: 7a4)] SSLAccept(ssl_id = 2300695535072 = 00000217AC23DDE0) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:5f28)] SSLAccept(ssl_id = 2300695518320 = 00000217AC239C70) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:284c)] SSLAccept(ssl_id = 2300688503680 = 00000217ABB89380) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Web Request      (44d0:2138)] "GET /images/fish_icon.gif"   
+[Net An. Error    (44d0:30e0)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (44d0: 7a4)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (44d0:5f28)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (44d0:284c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid:  8) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:5a0c)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 23)  PROXIED!
+[Net An. Error    (44d0:30a8)] SSLAccept(ssl_id = 2300695479440 = 00000217AC230490) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:30a8)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 733 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2eb4)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3244)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:2138)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0: 16c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:2138)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:6004)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:2138)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 26)  PROXIED!
+[Net An. Error    (44d0:5a0c)] SSLAccept(ssl_id = 2300695778880 = 00000217AC279640) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Network Analyzer (44d0:4ed0)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:5a0c)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0: 16c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (44d0:6004)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:40d0)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (44d0:2138)] "GET /images/separator.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 23) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/sm_fish.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 24) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:3244)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (44d0:2eb4)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (44d0:4ed0)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (44d0:2138)] "GET /images/splash.gif"   
+[Network Analyzer (44d0:2138)]   (Sid:  8) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:40d0)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (44d0:2138)] "GET /images/sm_cats.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 25) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/sm_birds.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 26) Client -> Server @ : 696 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 24) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 25) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 26) Server -> Client : 545 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/dogs_icon.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 23) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:602c)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (44d0:2138)] "GET /images/cats_icon.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 24) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 25) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/birds_icon.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 26) Client -> Server @ : 698 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:602c)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/cart.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 27) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 3530 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/sm_dogs.gif"   
+[Network Analyzer (44d0:2138)]   (Sid:  8) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 23) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 25) Server -> Client : 963 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 24) Server -> Client : 702 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 26) Server -> Client : 765 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 27) Server -> Client : 1956 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Server -> Client : 600 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 692 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /favicon.ico"   
+[Network Analyzer (44d0:2138)]   (Sid: 23) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 763 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (44d0:5788)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:5788)] SSLAccept(ssl_id = 2300696341408 = 00000217AC302BA0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:5788)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (44d0:315c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:315c)] SSLAccept(ssl_id = 2300696289328 = 00000217AC2F6030) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:315c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (44d0: d7c)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0: d7c)] SSLAccept(ssl_id = 2300696326528 = 00000217AC2FF180) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0: d7c)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 30) Connection Terminated (by Client)
+[API Trapper      (5808:3230)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 500: 1e0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 74.125.130.188:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (44d0: 534)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0: 534)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (44d0:2138)]   (Sid: 31) Client -> Server @ : 191 bytes (SSL)
+[Network Analyzer (44d0:2138)]   (Sid: 31) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (44d0:2138)]   (Sid: 31) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (44d0:2138)]   (Sid: 31) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (44d0:3dc4)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:3dc4)] SSLAccept(ssl_id = 2300696341408 = 00000217AC302BA0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:3dc4)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 32) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Signin [Web Request      (44d0:2138)] "GET /actions/Account.action;jsessionid=84DDBDD3F98493761E72D89C534B8CE7?signonForm="   
+[Network Analyzer (44d0:2138)]   (Sid: 23) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 1372 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (44d0:4240)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:4240)] SSLAccept(ssl_id = 2300696326528 = 00000217AC2FF180) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:4240)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:6624)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:6624)] SSLAccept(ssl_id = 2300696363728 = 00000217AC3082D0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:6624)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 34) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Signin [Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.167.131:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (44d0:37bc)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:37bc)] SSLAccept(ssl_id = 2300696341408 = 00000217AC302BA0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:37bc)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2050)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:2050)] SSLAccept(ssl_id = 2300696378608 = 00000217AC30BCF0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:2050)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:80   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (44d0:2138)] "POST /service/update2/json?cup2key=14:zbMuU-ix9EXpvYEJgK1iZHqlEiTti4u_lgToFJ6ezX8&cup2hreq=232f029d62e286ff6f12de89f23fa4278994721c3ff274d55f11cd16b5ff3b5e"
+[Network Analyzer (44d0:2138)]   (Sid: 37) Client -> Server @ : 1258 bytes (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 37) Client -> Server @ : 8478 bytes (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 37) Server -> Client : 1086 bytes  (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 37) Server -> Client : 1972 bytes  (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 38)  PROXIED!
+[User action                 ] StartTransactionEvent Login [Network Analyzer (44d0:5410)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:5410)] SSLAccept(ssl_id = 2300696341408 = 00000217AC302BA0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:5410)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (44d0:2138)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:66c8)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:66c8)] SSLAccept(ssl_id = 2300696386048 = 00000217AC30DA00) Failed, ctx = 00000217ABCAE380, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (44d0:66c8)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (44d0:2138)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (44d0:3b44)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:3b44)] SSLAccept(ssl_id = 2300696348848 = 00000217AC3048B0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:3b44)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:80   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (44d0:2138)]   (Sid: 41) Client -> Server @ : 303 bytes (Service=HTTP)
+[Web Request      (44d0:2138)] "POST /service/update2/json"   
+[Network Analyzer (44d0:2138)]   (Sid: 41) Client -> Server @ : 1509 bytes (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 41) Server -> Client : 807 bytes  (Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (44d0:3fc4)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:3fc4)] SSLAccept(ssl_id = 2300696289328 = 00000217AC2F6030) Failed, ctx = 00000217ABC57B90, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:3fc4)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (44d0:59e0)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:59e0)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (44d0:2138)] "POST /actions/Account.action"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 1249 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 230 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /actions/Catalog.action"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 906 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 1651 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 360 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/banner_dogs.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 2264 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:59a0)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:59a0)] SSLAccept(ssl_id = 2300696341408 = 00000217AC302BA0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:59a0)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:1ee4)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 46)  PROXIED!
+[Net An. Error    (44d0:1ee4)] SSLAccept(ssl_id = 2300696348848 = 00000217AC3048B0) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:1ee4)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 41) Client -> Server @ : 303 bytes (Service=HTTP)
+[Web Request      (44d0:2138)] "POST /service/update2/json"   
+[Network Analyzer (44d0:2138)]   (Sid: 41) Client -> Server @ : 1544 bytes (Service=HTTP)
+[Network Analyzer (44d0:340c)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:340c)] SSLAccept(ssl_id = 2300696304208 = 00000217AC2F9A50) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:340c)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (44d0:2138)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 41) Server -> Client : 637 bytes  (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 41) Server -> Client : 171 bytes  (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 142.250.77.131:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (44d0:18d0)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (44d0:18d0)] SSLAccept(ssl_id = 2300696326528 = 00000217AC2FF180) Failed, ctx = 00000217ABCAE380, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (44d0:18d0)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (44d0:2138)] "POST /service/update2/json"   
+[Network Analyzer (44d0:2138)]   (Sid: 41) Client -> Server @ : 1844 bytes (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer (44d0:2138)]   (Sid: 41) Server -> Client : 808 bytes  (Service=HTTP)
+[Network Analyzer (44d0:3d58)] Address lookup for Mahesh = 192.168.0.196
+[Network Analyzer (44d0:3d58)] Request Connection: Remote Server @ 216.58.196.170:443   (Service=)  (Sid= 48)  PROXIED!
+[User action                 ] EndTransactionEvent Login [Network Analyzer (44d0:474c)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (44d0:474c)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (44d0:2138)] "GET /v1/pages/ChRDaHJvbWUvMTI1LjAuNjQyMi43NxIZCd-HvMqPGywPEgUNAo_7aCEGbNZb66Z6ag==?alt=proto"   
+[Network Analyzer (44d0:2138)]   (Sid: 48) Client -> Server @ : 541 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 48) Server -> Client : 483 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /v1/pages/ChRDaHJvbWUvMTI1LjAuNjQyMi43NxIZCd-HvMqPGywPEgUNAo_7aCEw4Tjx9BF1wxIgCTwYvFQlQx3wEgUN541ADhIFDc5BTHohz-dhNHnrzvE=?alt=proto"   
+[Network Analyzer (44d0:2138)]   (Sid: 48) Client -> Server @ : 585 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 48) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent Click_on_Search [Web Request      (44d0:2138)] "POST /actions/Catalog.action"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 1169 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 1355 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[API Trapper      (1eec:51cc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Web Request      (44d0:2138)] "POST /actions/Catalog.action"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 1172 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 1749 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /images/dog2.gif"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 225 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click_on_Search [User action                 ] StartTransactionEvent Signoff [Web Request      (44d0:2138)] "GET /actions/Account.action?signoff="   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 230 bytes (SSL) (Service=HTTP)
+[Web Request      (44d0:2138)] "GET /actions/Catalog.action"   
+[Network Analyzer (44d0:2138)]   (Sid: 43) Client -> Server @ : 824 bytes (SSL)(Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 1695 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 313 bytes (SSL) (Service=HTTP)
+[Network Analyzer (44d0:2138)]   (Sid: 43) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Signoff 
